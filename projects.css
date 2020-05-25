@@ -1,4 +1,4 @@
-.logo {
+..logo {
   display: block;
   width: 550px;
   height: auto;
@@ -296,3 +296,4 @@ body::-webkit-scrollbar-thumb {
   background-color: #333;
   outline: 1px solid slategrey;
 }
+
