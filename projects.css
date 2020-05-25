@@ -1,0 +1,298 @@
+.logo {
+  display: block;
+  width: 550px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5px;
+  align: center;
+}
+
+hr {
+  border: 1px solid black;
+  max-width: 930px;
+  margin: auto;
+}
+
+.topnav {
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.btn_01 {
+  color: black;
+  background: white;
+  padding: 10px 20px;
+  font-size: 12px;
+  text-decoration: none;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.btn_01:visited {
+  border-bottom: 2px solid #c6cc4a;
+}
+
+.btn_01:hover {
+  border: none;
+  background: rgba(0, 0, 0, 0.4);
+  background: #fff;
+  padding: 10px 20px;
+  #000;
+  color: #1b1b1b;
+  border-bottom: 2px solid currentColor;
+  text-decoration: none;
+}
+
+.btn_01:active {
+  border-bottom: 2px solid #c6cc4a;
+}
+
+/* Project Gallery
+#center {
+ padding-left: 10vw;
+ padding-right: 10vw;
+}
+*/
+.carousel {
+  position: relative;
+  max-width: 940px;
+  height: 500px;
+  margin: auto auto;
+  padding: 0spx 0px;
+  background-color: #333;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+}
+
+.carousel-item {
+  height: 500px;
+}
+
+.carousel-item img {
+  height: 500px;
+  width: 940px;
+}
+
+/* Project Gallery*/
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+  padding: 20px;
+  font-family: Arial;
+}
+
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column (if you want) */
+.row,
+.row>.column {
+  padding: 8px;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  display: none;
+  /* Hide columns by default */
+}
+
+/* Clear floats after rows */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px;
+}
+
+/* The "show" class is added to the filtered elements */
+.show {
+  display: block;
+}
+
+/* Style the buttons */
+.btn {
+  background-color: #333;
+  /* Green */
+  border: none;
+  color: white;
+  padding: 5px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 0;
+}
+
+/* Add a grey background color on mouse-over */
+.btn:hover {
+  background-color: #ddd;
+}
+
+/* Add a dark background color to the active button */
+.btn.active {
+  background-color: #c6cc4a;
+  color: white;
+  border-radius: 0;
+  outline: none;
+  border: none;
+}
+
+#myBtnContainer {
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box
+}
+
+/* Container needed to position the overlay. Adjust the width as needed */
+.content {
+  position: relative;
+  width: 100%;
+  max-width: 300px;
+  filter: grayscale(100%);
+}
+
+.content:hover {
+  filter: grayscale(0%);
+}
+
+/* Make the image to responsive */
+.hvrbox-layer_bottom {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* The overlay effect - lays on top of the container and over the image */
+.overlay {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: black;
+  /*rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1;
+  width: 280px;
+  height: 10%;
+  transition: .5s ease;
+  opacity: 0;
+  color: white;
+  font-size: 15px;
+  padding-left: 5px;
+  text-align: left;
+}
+
+/* When you mouse over the container, fade in the overlay title */
+.content:hover .overlay {
+  opacity: 1;
+}
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 55px;
+  right: 10px;
+  z-index: 99;
+  font-size: 14px;
+  border: none;
+  outline: none;
+  background-color: #c6cc4a;
+  color: white;
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
+
+/* Create three equal columns that floats next to each other */
+.column_bottom {
+  text-align: center;
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: auto;
+  /* Should be removed. Only for demonstration */
+}
+
+.bottom_navigation {
+  text-align: center;
+  margin-left: 348px;
+  margin-bottom: 6px;
+  margin-right: 855px;
+  background-color: white;
+  font-weight: bold;
+}
+
+/* BOTTOM NAVIGATION */
+.btn_02 {
+  color: black;
+  background: white;
+  padding: 10px 20px;
+  font-size: 12px;
+  text-decoration: none;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.btn_02:visited {
+  border-top: 2px solid #c6cc4a;
+}
+
+.btn_02:hover {
+  border: none;
+  background: rgba(0, 0, 0, 0.4);
+  background: #fff;
+  padding: 10px 20px;
+  #000;
+  color: #1b1b1b;
+  border-top: 2px solid currentColor;
+  text-decoration: none;
+}
+
+.btn_02:active {
+  border-top: 2px solid #c6cc4a;
+}
+
+/* BOTTOM NAVIGATION */
+body::-webkit-scrollbar {
+  width: 0.75em;
+}
+
+body::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #333;
+  outline: 1px solid slategrey;
+}
