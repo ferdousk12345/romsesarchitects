@@ -1,0 +1,7 @@
+font-family: 'Merriweather Sans', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Orbitron', sans-serif;
+
+
+
+<link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@700&family=Montserrat:wght@500&family=Orbitron:wght@600&display=swap" rel="stylesheet">

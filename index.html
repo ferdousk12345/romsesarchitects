@@ -3,148 +3,332 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Romses Architects</title>
+  <title>Home Page - Romses Architects </title>
 
 
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@700&family=Montserrat:wght@500&family=Orbitron:wght@600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+
 
 
   <link rel="shortcut icon" type="images/png" href="images/favicon.png">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="projects.css">
+
+
+
 
 
 
 </head>
 
-
-
 <body>
 
 
 
+  <img class="logo" src="images/logo.png" alt="ROMSES ARCHITECTS">
+  <div class="topnav">
 
-  <div class="topnav" id="myTopnav">
-    <a href="#home" class="active"><b>ROMSES ARCHITECTS</b></a>
-    <a href="#news">PORTFOLIO</a>
-        <a href="#about">ABOUT US</a>
-    <a href="#about">CONTACTS</a>
-    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-      <i class="fa fa-bars"></i>
-    </a>
-  </div>
 
-  <div class="middle-container">
-    <p style="
-    margin-top: 25px;
-    margin-bottom: 0px;">
+    <a href="index.html" class="btn_01">Home</a>
+    <a href="projects.html" class="btn_01">PROJECTS</a>
+    <a href="about.html" class="btn_01">ABOUT</a>
+    <a href="contact_01.html" class="btn_01">CONTACT</a>
+
   </div>
 
 
-  <div class="slideshow">
+  <hr>
 
 
-    <!-- Slideshow container -->
-    <div class="slideshow-container">
+  <br>
+  <div>
 
-      <!-- Full-width images with number and caption text -->
-      <div class="mySlides fade">
-        <div class="numbertext"></div>
-        <img src="images/cambi_01.jpg" style=" display:block;height:100vh; width:auto; margin-left:auto; margin-right:auto;">
-        <div class="text">Caption Text</div>
-      </div>
+    <object type="text/html" data="carousel.html" width="100%" height="550px" style="overflow:auto;border:0">
 
-      <div class="mySlides fade">
-        <div class="numbertext"></div>
-        <img src="images/cambi_02.jpg"   style="display:block; height:100vh; width:auto; margin-left:auto; margin-right:auto;;">
-        <div class="text"><a href="https://www.bbc.co.uk/persian">HTML Images</a></div>
-      </div>
+    </object>
 
-      <div class="mySlides fade">
-        <div class="numbertext"></div>
-        <img src="images/earls_01.jpg"  style="display:block; height:100vh; width:auto; margin-left:auto; margin-right:auto;">
-        <div class="text">Caption Three</div>
-      </div>
+  </div>
 
-      <!-- Next and previous buttons -->
 
+
+  <hr>
+  <!-- Section top menu -->
+  <br>
+  <br>
+  <div class="paragraph">
+    <p style="text-align: justify;">
+      Architecture and design have the power to greatly affect the way in which we interact with our environment, and ultimately, how we live our lives. A richer, more significant understanding of our world, and how we are a part of it, can be
+      achieved through re-thinking existing paradigms and challenging them through intelligent creative design solutions. We are committed to exploring memorable architecture that engages, questions, and reveals culture, landscape, and the unique
+      aspirations of our clients.
+    </p>
+    <br>
+  </div>
+
+  <br>
+
+  <!-- Section top menu -->
+
+  <section id="center" style="position: relative; align-content: center; overflow: hidden; margin: auto;  height: auto; width: 960px; visibility: visible;">
+    <h2></h2>
+    <div id="myBtnContainer">
+      <button class="btn active" onclick="filterSelection('all')"> All Projects</button>
+      <button class="btn" onclick="filterSelection('nature')"> Residential</button>
+      <button class="btn" onclick="filterSelection('cars')"> Commercial</button>
+      <button class="btn" onclick="filterSelection('people')"> Cultural</button>
+      <button class="btn" onclick="filterSelection('urban_design')"> Urban Design</button>
     </div>
 
-  </div>
+    <!-- Portfolio Gallery Grid -->
+    <div class="row">
 
 
-
-
-
-  <section id="mission">
-    <div class="mid-container">
-
-      <h2>Enchanting Architecture.</h2>
-      <p>We make architecture that surprises, vexes, and delights. Our office leverages cutting-edge digital tools and expert knowledge of the building industry and fabrication technology to deliver iconic projects with professionalism and care.</p>
-      <div class="row">
-
-
-        <div class="col-sm-4">
-          <div class="container-fluid">
-            <h4>Projects</h4>
+      <div class="column nature">
+        <div class="content">
+          <a href ="cambie.html"><img src="images/residential_thumbnails/cambi_thumb.jpg" alt="Mountains" style="width:100%" class="hvrbox-layer_bottom"></a>
+          <div class="overlay">
+            <p>528 W KING EDWARD</p>
           </div>
-          <img src="images/vertical_farm_01.jpg" class="img-fluid" alt="Responsive image">
         </div>
-        <div class="col-sm-4">
-          <div class="container-fluid">
-            <h4 >People</h4>
-          </div>
-          <img src="images/PicA-Crop1.jpg"  class="img-fluid" alt="Team Romses" style="filter: blur(4px);" hoveropacity: 0.5;>
-        </div>
-        <div class="col-sm-4">
-          <div class="container-fluid">
-            <h4>About Us</h4>
-          </div>
-          <img src="images/atropolis.jpg" class="img-fluid" alt="Team Romses" style="filter: blur(4px);">
-        </div>
+      </div>
 
 
+      <div class="column nature">
+        <div class="content">
+          <a href ="white_rock.html"><img src="images/residential_thumbnails/white_rock_thumb.jpg" alt="Lights" style="width:100%" class="hvrbox-layer_bottom"></a>
+          <div class="overlay">
+            <p>WHITE ROCK</p>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="column nature">
+        <div class="content">
+          <a href ="veil_house.html"><img src="images/residential_thumbnails/lantern_thumb.jpg" alt="Nature" style="width:100%" class="hvrbox-layer_bottom"></a>
+          <div class="overlay">
+            <p>VEIL HOUSE</p>
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="column nature">
+        <div class="content">
+          <a href ="prefab.html"><img src="images/residential_thumbnails/prefab2020_thumb.jpg" alt="Nature" style="width:100%" class="hvrbox-layer_bottom"></a>
+          <div class="overlay">
+            <p>PREFAB 2020</p>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="column nature">
+        <div class="content">
+          <a href ="8house.html"><img src="images/residential_thumbnails/house8_thumb.jpg" alt="Nature" style="width:100%" class="hvrbox-layer_bottom"></a>
+          <div class="overlay">
+            <p>8 HOUSE</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="column nature">
+        <div class="content">
+          <a href ="laneway_house.html"><img src="images/residential_thumbnails/laneway_house_thumb.jpg" alt="Nature" style="width:100%" class="hvrbox-layer_bottom"></a>
+          <div class="overlay">
+            <p>Laneway House</p>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="column cars">
+        <div class="content">
+          <a href ="earls.html"><img src="images/commercial_thumbnails/earls_thumb.jpg" alt="Car" style="width:100%" class="hvrbox-layer_bottom"></a>
+          <div class="overlay">
+            <p>EARLS RESTAURANT</p>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="column cars">
+        <div class="content">
+          <a href ="silvercity.html"><img src="images/commercial_thumbnails/silvercity_thumb.jpg" alt="Car" style="width:100%" class="hvrbox-layer_bottom"></a>
+          <div class="overlay">
+            <p>SILVERCITY SHOPPING CENTER</p>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="column cars">
+        <div class="content">
+          <a href ="xian.html"><img src="images/commercial_thumbnails/xian_thumb.jpg" alt="Car" style="width:100%" class="hvrbox-layer_bottom"></a>
+          <div class="overlay">
+            <p>XIAN OFFICE HEADQUARTERS</p>
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="column cars">
+        <div class="content">
+          <a href ="boiler.html"><img src="images/commercial_thumbnails/clark_thumb.jpg" alt="Car" style="width:100%" class="hvrbox-layer_bottom"></a>
+          <div class="overlay">
+            <p>THE BOILER</p>
+          </div>
+        </div>
+      </div>
+
+
+
+
+      <div class="column cars">
+        <div class="content">
+          <a href ="hightech_office.html"><img src="images/commercial_thumbnails/hightech_thumb.jpg" alt="Car" style="width:100%" class="hvrbox-layer_bottom"></a>
+          <div class="overlay">
+            <p>HIGH TECH OFFICE</p>
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="column people">
+        <div class="content">
+          <a href ="airport.html"><img src="images/public_thumbnails/airport_thumb.jpg" alt="Cultural" style="width:100%" class="hvrbox-layer_bottom"></a>
+          <div class="overlay">
+            <p>QINGDAO AIRPORT</p>
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="column people">
+        <div class="content">
+          <a href ="club_house.html"><img src="images/public_thumbnails/beijing_thumb.jpg" alt="cultural" style="width:100%" class="hvrbox-layer_bottom"></a>
+          <div class="overlay">
+            <p>BEIJING ELITE CLUBHOUSE</p>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="column people">
+        <div class="content">
+          <a href ="chengdu.html"><img src="images/public_thumbnails/chengdu_thumb.jpg" alt="Cultural" style="width:100%" class="hvrbox-layer_bottom"></a>
+          <div class="overlay">
+            <p>CHENGDU CULTURAL CENTER</p>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="column people">
+        <div class="content">
+          <a href ="harvest_green.html"><img src="images/public_thumbnails/vertical_thumb.jpg" alt="Cultural" style="width:100%" class="hvrbox-layer_bottom"></a>
+          <div class="overlay">
+            <p>VERTICAL FARM</p>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="column urban_design">
+        <div class="content">
+          <a href ="artropolis.html"><img src="images/urban_thumbnails/artropolis_thumb.jpg" alt="Cultural" style="width:100%" class="hvrbox-layer_bottom"></a>
+          <div class="overlay">
+            <p>ARTROPOLIS CULTURAL PARK</p>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="column urban_design">
+        <div class="content">
+          <a href ="river_walk.html"><img src="images/urban_thumbnails/yangzhou_thumb.jpg" alt="Cultural" style="width:100%" class="hvrbox-layer_bottom"></a>
+          <div class="overlay">
+            <p>YANDZHOU RIVERWALK</p>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="column urban_design">
+        <div class="content">
+          <a href ="viaduct.html"><img src="images/urban_thumbnails/viaduct_thumb.jpg" alt="Cultural" style="width:100%" class="hvrbox-layer_bottom"></a>
+          <div class="overlay">
+            <p>GEORGIA VIADUCTS</p>
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="column urban_design">
+        <div class="content">
+          <a href ="lost_found.html"><img src="images/urban_thumbnails/lostspacefound_thumb.jpg" alt="Cultural" style="width:100%" class="hvrbox-layer_bottom"></a>
+          <div class="overlay">
+            <p>LOST SPACE FOUND</p>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="column urban_design">
+        <div class="content">
+          <a href ="union_bay.html"><img src="images/urban_thumbnails/vancouver_island_thumb.jpg" alt="Cultural" style="width:100%" class="hvrbox-layer_bottom"></a>
+          <div class="overlay">
+            <p>UNION BAY</p>
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+      <!-- END GRID -->
+    </div>
   </section>
 
 
-  <div class="bottom-container">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-12 col-md-3">
-          <address>© 2020 <strong>Romses Architects</strong></address>
-        </div>
-        <div class="col-sm-6 col-md-3">
-          <address>
-            112 East Broadway<br>
-            Vancouver, BC V5T 1V9<br>
-            Canada
-          </address>
-        </div>
-        <div class="col-sm-6 col-md-6">
-          <address>
-            <a data-email="info_#_romses@romsesarchitects.com" class="footer-email"></a><br>
-            Tel.&nbsp;&nbsp; <a class="footer-email">+ 1 604 738 4118</a><br>
-            Fax&nbsp;&nbsp; <a class="footer-email">+ 1 604 738 4116</a>
-          </address>
-        </div>
-      </div>
-    </div>
+  <div class="topnav">
+
+
+    <a href="index.html" class="btn_01">Home</a>
+    <a href="projects.html" class="btn_01">PROJECTS</a>
+    <a href="about.html" class="btn_01">ABOUT</a>
+    <a href="contact_01.html" class="btn_01">CONTACT</a>
+
   </div>
+
+  <hr>
+  <br>
 
 
   <div class="footer">
-    <img class="logo" src="images/logo.png" alt="LOGO">
+    <div class="column_bottom">copyright © romsesarchitects, Inc</div>
+    <div class="column_bottom">TEL: + 1 604 736 8160</div>
+    <div class="column_bottom">romses@romsesarchitects.com</div>
   </div>
 
 
-  <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
-  <script src="main.js"></script>
+
+  <script src="projects.js"></script>
+
+
+
 </body>
 
 </html>
